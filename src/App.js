@@ -7,6 +7,8 @@ import FontSizeChanger from './components/with-useeffect';
 // import UseRefExample from './components/use-ref';
 import Interview1 from './components/interview-question';
 import ConcertSeats from './components/seating';
+import Counter from './components/use-reducer';
+import DataFetch from './components/use-reducers/DataFetch';
 
 function App() {
 
@@ -28,11 +30,13 @@ console.log('Render on ecery each redering')
     <h2 onClick={()=>setMutli(multi*4)}>Multi update{multi}</h2>
     <h3> persist value {persistValue.current}</h3> */}
 {/* <FatchApi/> */}
-<ResizableBox/>
-<FontSizeChanger/>
+{/* <ResizableBox/> */}
+{/* <FontSizeChanger/> */}
 {/* <UseRefExample/> */}
-<Interview1/>
-<ConcertSeats/>
+{/* <Interview1/> */}
+{/* <ConcertSeats/> */}
+<Counter/>
+<DataFetch/>
     </div>
    
   );
